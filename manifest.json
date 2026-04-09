@@ -1,16 +1,7 @@
 {
-  "dataStudio": {
-    "name": "Custom Color Table",
-    "logoUrl": "https://ssl.gstatic.com/docs/script/images/logo.png",
-    "company": "Custom",
-    "companyUrl": "https://example.com",
-    "addonUrl": "https://example.com",
-    "supportUrl": "https://example.com",
-    "description": "Table with hex-based background colors",
-    "devMode": true
-  },
+  "name": "Custom Color Table",
+  "description": "Table with hex-based background colors",
   "resources": {
     "js": ["script.js"]
-  },
-  "vizType": "table"
-} 
+  }
+}
