@@ -1,0 +1,22 @@
+{
+  "name": "Custom Color Table",
+  "description": "Table with hex-based cell background colors",
+  "resources": {
+    "js": ["script.js"],
+    "css": []
+  },
+  "data": {
+    "dimensions": [
+      {
+        "id": "dimension"
+      }
+    ],
+    "metrics": [
+      {
+        "id": "metric"
+      }
+    ]
+  },
+  "style": [],
+  "options": {}
+}
