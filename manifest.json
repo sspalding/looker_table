@@ -1,22 +1,20 @@
 {
   "name": "Custom Color Table",
-  "description": "Table with hex-based cell background colors",
-  "resources": {
-    "js": ["script.js"],
-    "css": []
-  },
-  "data": {
-    "dimensions": [
-      {
-        "id": "dimension"
+  "organization": "Your Name",
+  "description": "Table with hex-based background colors",
+  "logoUrl": "https://via.placeholder.com/100",
+  "packageUrl": "https://github.com/sspalding/looker_table",
+  "supportUrl": "https://github.com/sspalding/looker_table",
+  "devMode": true,
+  "components": [
+    {
+      "id": "custom-color-table",
+      "name": "Color Table",
+      "description": "Table with color_hex support",
+      "iconUrl": "https://via.placeholder.com/50",
+      "resource": {
+        "js": "https://sspalding.github.io/looker_table/script.js"
       }
-    ],
-    "metrics": [
-      {
-        "id": "metric"
-      }
-    ]
-  },
-  "style": [],
-  "options": {}
+    }
+  ]
 }
