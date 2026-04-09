@@ -1,3 +1,4 @@
+import * as dscc from 'https://www.gstatic.com/dscc/0.1.0/dscc.min.js';
 // Subscribe to Looker Studio data
 dscc.subscribeToData(drawTable, { transform: dscc.tableTransform });
 
